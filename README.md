@@ -2,7 +2,7 @@
 
 This repository contains the code used in the paper:
 
-Pham, Quang-Cuong, Stéphane Caron, and Yoshihiko Nakamura.  [Kinodynamic
+Pham, Quang-Cuong, Stéphane Caron, and Yoshihiko Nakamura. [Kinodynamic
 Planning in the Configuration Space via Admissible Velocity
 Propagation.](http://www.normalesup.org/~pham/docs/kinodynamic.pdf) *Robotics:
 Science and Systems*. 2013.
@@ -11,8 +11,7 @@ Science and Systems*. 2013.
 
 - [OpenRAVE](http://openrave.org)
 - Optional: [IPython](http://ipython.org/)
-- Optional: [Slycot](https://github.com/avventi/Slycot) (if you want to use
-  LQR-RRT)
+- Optional: [Slycot](https://github.com/avventi/Slycot) (for LQR-RRT)
 
 ## Usage
 
