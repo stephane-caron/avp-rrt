@@ -2,10 +2,10 @@
 
 This repository contains the code used in the paper:
 
-    Pham, Quang-Cuong, Stéphane Caron, and Yoshihiko Nakamura. 
-    [Kinodynamic Planning in the Configuration Space via Admissible Velocity
-    Propagation.](http://www.normalesup.org/~pham/docs/kinodynamic.pdf)
-    *Robotics: Science and Systems*. 2013.
+Pham, Quang-Cuong, Stéphane Caron, and Yoshihiko Nakamura.  [Kinodynamic
+Planning in the Configuration Space via Admissible Velocity
+Propagation.](http://www.normalesup.org/~pham/docs/kinodynamic.pdf) *Robotics:
+Science and Systems*. 2013.
 
 ## Requirements
 
@@ -16,26 +16,16 @@ This repository contains the code used in the paper:
 
 ## Usage
 
-See the Makefile:
+Run `make vip-rrt.py` to open IPython with an AVP-RRT instance.
 
-    $ make
-    Usage:                                                         
-                                                                   
-        make vip-rrt.py -- run AVP-RRT planner in an ipython shell 
-                                                                   
-    Plots for the torque-limited pendulum:                         
-                                                                   
-        make 11-05 -- (11, 5)-Nm torque limit                      
-        make 11-07 -- (11, 7)-Nm torque limit                      
-        make 13-05 -- (13, 5)-Nm torque limit                      
-                                                                   
-    Plots for RRT parameter identification:                        
-                                                                   
-        make param-dur -- max-traj-duration                        
-        make param-mod -- steer-to-goal-modulo                     
-        make param-trj -- traj-per-extension                       
-                                                                   
-    Other:                                                         
-                                                                   
-        make clean -- clean temporary files                        
-        make help -- this message  
+Plots for the torque-limited pendulum:
+
+- `make 11-05`: (11, 5)-Nm torque limit
+- `make 11-07`: (11, 7)-Nm torque limit
+- `make 13-05`: (13, 5)-Nm torque limit
+
+Plots for RRT parameter identification:
+
+- `make param-dur`: vary the maximum duration of local trajectories
+- `make param-mod`: vary the steer-to-goal frequency (in number of steps)
+- `make param-trj`: vary the number of trajectories tried per extension
