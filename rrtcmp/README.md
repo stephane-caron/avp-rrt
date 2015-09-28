@@ -8,7 +8,7 @@ The algorithm introduced in
 
 Pham, Quang-Cuong, Stéphane Caron, and Yoshihiko Nakamura. 
 [Kinodynamic Planning in the Configuration Space via Admissible Velocity
-Propagation.](http://www.normalesup.org/~pham/docs/kinodynamic.pdf)
+Propagation.](http://www.roboticsproceedings.org/rss09/p52.html)
 *Robotics: Science and Systems*. 2013.
 
 The class name is `VIP_RRT`, its former name, which we do not change for

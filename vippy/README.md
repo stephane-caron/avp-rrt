@@ -2,7 +2,7 @@
 
 Python implementation of the Admissible Velocity Propagation algorithm
 introduced in [Pham et al., RSS
-2013](http://www.normalesup.org/~pham/docs/kinodynamic.pdf)
+2013](http://www.roboticsproceedings.org/rss09/p52.html)
 
 **This code is outdated and not maintained. See
 [TOPP](https://github.com/quangounet/TOPP) for a fast and stable C++

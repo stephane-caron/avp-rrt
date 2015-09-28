@@ -4,7 +4,7 @@ This repository contains the code used in the paper:
 
 Pham, Quang-Cuong, Stéphane Caron, and Yoshihiko Nakamura. [Kinodynamic
 Planning in the Configuration Space via Admissible Velocity
-Propagation.](http://www.normalesup.org/~pham/docs/kinodynamic.pdf) *Robotics:
+Propagation.](http://www.roboticsproceedings.org/rss09/p52.html) *Robotics:
 Science and Systems*. 2013.
 
 ## Requirements
